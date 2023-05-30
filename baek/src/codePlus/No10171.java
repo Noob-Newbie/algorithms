@@ -1,7 +1,5 @@
 package codePlus;
 
-import java.util.Scanner;
-
 public class No10171 {
     public static void main(String[] args) {
     	
