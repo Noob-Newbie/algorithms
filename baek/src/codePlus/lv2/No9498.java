@@ -20,7 +20,7 @@ public class No9498 {
     	}else if(a >= 60 && a<70) {
     		result = "D";
     	}else {
-    		result = "F";  
+    		result = "F";   
     	}
     	
     
