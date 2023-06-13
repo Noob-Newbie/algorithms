@@ -1,4 +1,4 @@
-package codePlus;
+package codePlus.lv1;
 
 import java.util.Scanner;
 

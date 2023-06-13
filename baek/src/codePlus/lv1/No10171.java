@@ -1,4 +1,4 @@
-package codePlus;
+package codePlus.lv1;
 
 public class No10171 {
     public static void main(String[] args) {
