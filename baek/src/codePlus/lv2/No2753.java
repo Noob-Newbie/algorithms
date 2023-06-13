@@ -18,7 +18,7 @@ public class No2753 {
 		}
 
 		System.out.print(result); 
- 
+  
 	}
 
 }
