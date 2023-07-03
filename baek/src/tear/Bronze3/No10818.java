@@ -18,6 +18,7 @@ public class No10818 {
             numList.add(sc.nextInt());
         }
 
+        // isPresent() 일단 스킵
         int a = numList.stream().sorted().findFirst().get();
         int b = numList.stream().sorted(Comparator.reverseOrder()).findFirst().get();
 
