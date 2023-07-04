@@ -45,6 +45,7 @@ public class No1157 {
         return Arrays.stream(alphabets).filter(b-> b == max).count();
     }
 
+    //TODO 한줄로 바로 리턴값 꽂아줄 수 있을거 같은데 indexOf,binarySearch 둘다 실패 함
     public static int findIndex(int[] alphabets, int max){
 
         int result = 0;
