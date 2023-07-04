@@ -18,7 +18,7 @@ public class No1157 {
 
             int max = findMax(alphabets);
 
-            int count = duplicateCount(alphabets, max);
+            long count = duplicateCount(alphabets, max);
 
             if(count < 2){
                 int index = findIndex(alphabets, max);
@@ -40,16 +40,9 @@ public class No1157 {
         return alphabets[25];
     }
 
-    public static int duplicateCount(int[] alphabets, int max){
-        int count = 0;
+    public static long duplicateCount(int[] alphabets, int max){
 
-        for(int i : alphabets){
-            if(i == max){
-                count ++;
-            }
-        }
-
-        return count;
+        return Arrays.stream(alphabets).filter(b-> b == max).count();
     }
 
     public static int findIndex(int[] alphabets, int max){
