@@ -1,5 +1,6 @@
 package tear.Bronze1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class No1157 {
@@ -33,13 +34,10 @@ public class No1157 {
     }
 
     public static int findMax(int[] alphabets){
-        int max = 0;
-        for (int alphabet : alphabets) {
-            if (max < alphabet) {
-                max = alphabet;
-            }
-        }
-        return max;
+
+        alphabets = Arrays.stream(alphabets).sorted().toArray();
+
+        return alphabets[25];
     }
 
     public static int duplicateCount(int[] alphabets, int max){
