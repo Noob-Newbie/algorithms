@@ -1,4 +1,4 @@
-package tear.Bronze3;
+package tear.Bronze.Bronze3;
 
 import java.util.*;
 

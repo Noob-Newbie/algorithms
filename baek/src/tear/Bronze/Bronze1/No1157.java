@@ -1,4 +1,4 @@
-package tear.Bronze1;
+package tear.Bronze.Bronze1;
 
 import java.util.Arrays;
 import java.util.Scanner;
