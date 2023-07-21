@@ -10,23 +10,5 @@ public class Main {
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 
-		int count = Integer.parseInt(sc.nextLine());
-
-		List<String> wordList = new ArrayList<>();
-
-		for (int i = 0; i < count; i++) {
-			String str = sc.nextLine().trim();
-			wordList.add(str);
-		}
-
-		wordList = wordList.stream()
-						   .distinct()
-						   .sorted(Comparator.comparing(b-> b.toString().length()).thenComparing(b -> b.toString()))
-						   .collect(Collectors.toList());
-
-		for (String str : wordList) {
-			System.out.println(str);
-		}
-
 	}
 }
