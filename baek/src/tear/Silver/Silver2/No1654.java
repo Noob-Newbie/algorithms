@@ -33,7 +33,7 @@ public class No1654 {
 		max ++;
 
 
-		while (max > min){
+		while (min+1 < max){
 			long mid = (max+min)/2;
 
 			long cutSum = 0;
@@ -42,7 +42,7 @@ public class No1654 {
 				cutSum += i/mid;
 			}
 
-			if(cutSum >= cutCount){
+			if(cutCount <= cutSum){
 				min = mid + 1;
 			}else{
 				max = mid;
