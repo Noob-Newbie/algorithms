@@ -21,6 +21,7 @@ public class No11050 {
 		System.out.println(num);
 	}
 
+	//팩토리얼 재귀 함수
 	public static int factorial(int num){
 
 		if(num <= 1){
